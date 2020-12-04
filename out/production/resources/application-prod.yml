@@ -1,0 +1,32 @@
+#      氢华行的权限认证系统配置
+#  服务端口
+server:
+  port: 9001
+
+  
+spring:
+  
+     
+  # 数据库配置
+  datasource:    
+    url: jdbc:mysql://192.168.2.241:3306/aiot?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: develop
+    password: top123456
+
+    
+    # 对联结池进行配置 确保联结池不会假死
+    hikari:
+      validation-timeout: 3000
+      connection-test-query: SELECT 1 FROM DUAL
+      max-lifetime: 30000
+      
+  
+
+# 日志配置
+logging:
+  config: claspath:logback.xml
+  level:
+    root: info
+    org.hibernate.SQL: debug
+
+

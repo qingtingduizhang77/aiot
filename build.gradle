@@ -1,0 +1,188 @@
+
+plugins {
+	id 'java'
+	id 'org.springframework.boot'  version "2.1.9.RELEASE"	
+}
+
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+apply plugin: "java"
+apply plugin: "war"
+apply plugin: "eclipse"
+apply plugin: 'eclipse-wtp'
+
+
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 10
+targetCompatibility = 10
+war.baseName = "city"
+project.webAppDirName = "src/main/webapp"
+
+group = 'com.cityiot'
+
+
+
+
+
+// 工程参数
+ext{
+    
+	outdir="querydsl"
+}
+
+// 源代码目录设置
+sourceSets {
+        main{
+            java {
+                srcDirs "src/main/java"
+				srcDirs "base/$outdir/java"   
+				srcDirs "base/main/java"
+				srcDirs "pojo/main/java"  
+				srcDirs "api/main/java"     
+            }
+        }
+ }
+
+
+configurations {
+       developmentOnly
+	    runtimeClasspath {
+		    extendsFrom developmentOnly
+	    }
+	    compileOnly {
+		    extendsFrom annotationProcessor
+	    }
+}
+
+
+
+repositories {
+    mavenLocal()
+   // maven {url "http://maven.oschina.net/content/groups/public/"}    
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    mavenCentral()
+    jcenter()
+}
+
+dependencies {
+
+      compile files('libs/swallow3-webserver-framework-0.0.3-SNAPSHOT.jar')	
+      compile files('libs/swallow3-devtool-0.0.1-SNAPSHOT.jar')
+
+
+	//个推
+	compile files('libs/gexin-rp-fastjson-1.0.0.3.jar')
+	compile files('libs/gexin-rp-sdk-base-4.0.0.30.jar')
+	compile files('libs/gexin-rp-sdk-http-4.1.0.5.jar')
+	compile files('libs/gexin-rp-sdk-template-4.0.0.24.jar')
+	compile files('libs/protobuf-java-2.5.0.jar')
+
+	providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+     
+    // springboot引用
+	implementation('io.projectreactor:reactor-core') // 如果不使用webflux要加上这个包
+	implementation('org.springframework.boot:spring-boot-starter-data-jpa')
+	compile('org.springframework.boot:spring-boot-starter-aop')
+	implementation('org.springframework.boot:spring-boot-starter-web')
+	implementation('org.springframework.boot:spring-boot-starter-data-mongodb')
+	implementation('org.springframework.boot:spring-boot-starter-data-redis')
+	
+	//providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat:2.1.9.RELEASE'
+	
+
+	// 其它引用
+	implementation ('com.querydsl:querydsl-jpa:4.2.1')
+	implementation ('io.springfox:springfox-swagger2:2.9.2')
+	implementation('io.springfox:springfox-swagger-ui:2.9.2')
+	implementation('org.apache.poi:poi:3.15')
+	implementation('org.apache.poi:poi-ooxml:3.15')
+	implementation('net.sf.json-lib:json-lib:2.4:jdk15')
+	
+	// shiro
+	implementation('org.apache.shiro:shiro-spring:1.4.0')	
+	// 验证码组件
+	compile('com.github.penggle:kaptcha:2.3.2')
+    // apache库
+	implementation('org.apache.commons:commons-lang3:3.8')
+
+	// 运行时引用
+	runtimeOnly('org.springframework.boot:spring-boot-devtools')
+	runtimeOnly('mysql:mysql-connector-java')
+
+
+    //引入阿里云短信发送
+	implementation('com.aliyun:aliyun-java-sdk-core:3.3.1')
+	implementation('com.aliyun:aliyun-java-sdk-cloudauth:1.1.5')
+	implementation('com.aliyun:aliyun-java-sdk-dysmsapi:1.1.0')
+	//implementation('com.aliyun:aliyun-java-sdk-Test111:1.1.0')
+
+	// 引入lombok
+	annotationProcessor 'org.projectlombok:lombok'
+	
+	
+	
+	// 测试引用
+	testCompile('com.squareup:javapoet:1.11.1')
+	testImplementation('org.springframework.boot:spring-boot-starter-test')
+	testImplementation('io.projectreactor:reactor-test')
+    
+   
+    // querydsl 代码生成组件
+	if (project.hasProperty("genCode")) {
+
+		annotationProcessor 'org.springframework.boot:spring-boot-starter-data-jpa'
+		annotationProcessor 'com.querydsl:querydsl-jpa:4.2.1'
+		annotationProcessor 'com.querydsl:querydsl-apt:4.2.1:jpa'
+	}
+	
+	 providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
+	
+}
+
+
+
+// 修改编译任务
+compileJava {	
+	// 设置 在编译指令后加-PgenCode 进行代码生成
+	doFirst{
+
+		if (project.hasProperty("genCode")) {	
+			// 生成或清队目录原有的数据
+			file(new File(projectDir, "/base/querydsl/java")).deleteDir()
+			// 确保辅助文件所在的位置
+			file(new File(projectDir, "/base/querydsl/java")).mkdirs()	
+
+			options.compilerArgs << "-s"
+			options.compilerArgs << "$projectDir/base/querydsl/java"	
+		}
+	}
+}
+
+
+
+
+
+
+
+
+// 生成标准jar包
+bootJar{
+   enabled=true
+}
+jar {
+	enabled = false		
+}
+
+
+
+// 设置使用utf8文件格式
+    tasks.withType(JavaCompile) {
+        options.encoding = "UTF-8"
+    }  
+ //开发过程中调试代码   
+bootRun {
+    jvmArgs "-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5006"
+}    
+    
+    
+    

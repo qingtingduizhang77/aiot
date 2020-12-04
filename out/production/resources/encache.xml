@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd"
+    updateCheck="false">
+    <diskStore path="java.io.tmpdir/Tmp_EhCache" />
+
+    <!-- 默认配置 -->
+    <defaultCache maxElementsInMemory="5000" eternal="false"
+        
+        memoryStoreEvictionPolicy="LRU" overflowToDisk="false" />
+	<!-- 配置缓存10分钟内不刷新 -->
+    <cache name="tokenchace" maxElementsInMemory="10000"
+    	 timeToLiveSeconds="600000"
+        maxElementsOnDisk="100000" />
+        
+    <!-- 配置缓存10分钟内不刷新 -->
+    <cache name="qhxMangerUser" maxElementsInMemory="10000"
+    	 timeToLiveSeconds="600000"
+        maxElementsOnDisk="100000" />
+        
+    <cache name="qhxCustomerUser" maxElementsInMemory="10000"
+    	 timeToLiveSeconds="600000"
+        maxElementsOnDisk="100000" />
+
+</ehcache>

@@ -1,0 +1,14 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: dev
+  # json序列化配置
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  
+  application:    
+    name: guanxin-web
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect

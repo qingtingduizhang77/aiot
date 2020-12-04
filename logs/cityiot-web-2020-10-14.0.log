@@ -1,0 +1,800 @@
+2020-10-14 09:39:25,488 [restartedMain] INFO  com.cityiot.guanxin.GuanxinWebServerApplication:50 - Starting GuanxinWebServerApplication on 360PC-20151102P with PID 8852 (D:\svn\aiot\out\production\classes started by Administrator in D:\svn\aiot)
+2020-10-14 09:39:25,492 [restartedMain] INFO  com.cityiot.guanxin.GuanxinWebServerApplication:652 - The following profiles are active: dev
+2020-10-14 09:39:25,557 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-14 09:39:25,677 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-14 09:39:31,523 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-14 09:39:31,524 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 09:39:31,641 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 108ms. Found 0 repository interfaces.
+2020-10-14 09:39:31,666 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-14 09:39:31,666 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 09:39:31,705 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2020-10-14 09:39:31,716 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-14 09:39:31,718 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-10-14 09:39:31,767 [restartedMain] INFO  o.s.d.r.config.RepositoryConfigurationDelegate:182 - Finished Spring Data repository scanning in 44ms. Found 0 repository interfaces.
+2020-10-14 09:39:32,329 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4433eb18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,472 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroConfig' of type [com.cityiot.guanxin.config.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$62200a6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,568 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration' of type [org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$1ef7fa4f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,572 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$84b35505] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,595 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,622 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,641 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,648 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'inMemoryDatabaseShutdownExecutor' of type [org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$NonEmbeddedInMemoryDatabaseShutdownExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,656 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties' of type [org.springframework.boot.autoconfigure.orm.jpa.JpaProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,662 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.jpa.hibernate-org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties' of type [org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,669 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$$EnhancerBySpringCGLIB$$d8a7e622] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,678 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,681 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,685 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration$$EnhancerBySpringCGLIB$$a48b12fc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,690 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'hikariPoolDataSourceMetadataProvider' of type [org.springframework.boot.autoconfigure.jdbc.metadata.DataSourcePoolMetadataProvidersConfiguration$HikariPoolDataSourceMetadataProviderConfiguration$$Lambda$442/1077732992] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,700 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration' of type [org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration$$EnhancerBySpringCGLIB$$630aad87] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,725 [restartedMain] WARN  com.zaxxer.hikari.HikariConfig:1008 - {} - idleTimeout has been set but has no effect because the pool is operating as a fixed size pool.
+2020-10-14 09:39:32,725 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource:110 - HikariPool-1 - Starting...
+2020-10-14 09:39:32,764 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource:123 - HikariPool-1 - Start completed.
+2020-10-14 09:39:32,771 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'jpaVendorAdapter' of type [org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,778 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'entityManagerFactoryBuilder' of type [org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:32,850 [restartedMain] INFO  org.hibernate.jpa.internal.util.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-10-14 09:39:32,925 [restartedMain] INFO  org.hibernate.Version:46 - HHH000412: Hibernate Core {5.3.12.Final}
+2020-10-14 09:39:32,928 [restartedMain] INFO  org.hibernate.cfg.Environment:213 - HHH000206: hibernate.properties not found
+2020-10-14 09:39:33,079 [restartedMain] INFO  org.hibernate.annotations.common.Version:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-10-14 09:39:33,254 [restartedMain] INFO  org.hibernate.dialect.Dialect:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-10-14 09:39:33,693 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean '(inner bean)#651c7e54' of type [org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:33,697 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean '(inner bean)#651c7e54' of type [org.springframework.beans.factory.config.ObjectFactoryCreatingFactoryBean$TargetBeanObjectFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,369 [restartedMain] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:416 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 09:39:35,372 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'entityManagerFactory' of type [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,377 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'entityManagerFactory' of type [com.sun.proxy.$Proxy138] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,390 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.orm.jpa.SharedEntityManagerCreator#0' of type [com.sun.proxy.$Proxy140] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,518 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'accountinfoRepository' of type [com.cityiot.guanxin.user.repository.AccountinfoRepository] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,546 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'accountinfoService' of type [com.cityiot.guanxin.user.service.AccountinfoService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,556 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userRepository' of type [com.cityiot.guanxin.user.repository.UserRepository] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,564 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userService' of type [com.cityiot.guanxin.user.service.UserService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,575 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'operatorOrCompanyManageRepository' of type [com.cityiot.guanxin.workOrder.operatorOrCompanyManage.repository.OperatorOrCompanyManageRepository] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,590 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'IDCardAttachmentRepository' of type [com.cityiot.guanxin.workOrder.operatorOrCompanyManage.repository.IDCardAttachmentRepository] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,599 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'IDCardAttachmentService' of type [com.cityiot.guanxin.workOrder.operatorOrCompanyManage.service.IDCardAttachmentService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,600 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'operatorOrCompanyManageService' of type [com.cityiot.guanxin.workOrder.operatorOrCompanyManage.service.OperatorOrCompanyManageService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,618 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userRoleRelationRepository' of type [com.cityiot.guanxin.user.repository.UserRoleRelationRepository] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,627 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userRoleRelationService' of type [com.cityiot.guanxin.user.service.UserRoleRelationService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,640 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userviewRepository' of type [com.cityiot.guanxin.user.repository.UserviewRepository] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,647 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userviewService' of type [com.cityiot.guanxin.user.service.UserviewService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,649 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'shiroRealm' of type [com.cityiot.guanxin.config.shiro.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,657 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration$$EnhancerBySpringCGLIB$$39cb1654] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,666 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,671 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$594da962] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,758 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,834 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,860 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'redisTemplate' of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,878 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'sessionRedisUtil' of type [com.cityiot.guanxin.config.shiro.SessionRedisUtil] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,882 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,899 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,900 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dataFilterConfig' of type [com.cityiot.guanxin.config.filter.DataFilterConfig$$EnhancerBySpringCGLIB$$db0c3e6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,926 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userAreaRelationRepository' of type [com.cityiot.guanxin.user.repository.UserAreaRelationRepository] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,938 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userAreaRelationService' of type [com.cityiot.guanxin.user.service.UserAreaRelationService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,946 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'userManagerService' of type [com.cityiot.guanxin.user.service.UserManagerService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,952 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'areaFilterCauseProvider' of type [com.cityiot.guanxin.config.filter.provider.AreaFilterCauseProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:35,954 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker:330 - Bean 'dataFilterAdvisor' of type [com.cityiot.guanxin.config.filter.DataFilterAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-14 09:39:36,387 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:90 - Tomcat initialized with port(s): 9500 (http)
+2020-10-14 09:39:36,402 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-9500"]
+2020-10-14 09:39:36,412 [restartedMain] INFO  org.apache.catalina.core.StandardService:173 - Starting service [Tomcat]
+2020-10-14 09:39:36,412 [restartedMain] INFO  org.apache.catalina.core.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.26]
+2020-10-14 09:39:36,523 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/]:173 - Initializing Spring embedded WebApplicationContext
+2020-10-14 09:39:36,523 [restartedMain] INFO  org.springframework.web.context.ContextLoader:284 - Root WebApplicationContext: initialization completed in 10845 ms
+2020-10-14 09:39:37,206 [restartedMain] INFO  org.mongodb.driver.cluster:71 - Cluster created with settings {hosts=[192.168.2.241:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-10-14 09:39:37,252 [cluster-ClusterId{value='5f8656d925121a2294ead537', description='null'}-192.168.2.241:27017] INFO  org.mongodb.driver.connection:71 - Opened connection [connectionId{localValue:1, serverValue:214}] to 192.168.2.241:27017
+2020-10-14 09:39:37,258 [cluster-ClusterId{value='5f8656d925121a2294ead537', description='null'}-192.168.2.241:27017] INFO  org.mongodb.driver.cluster:71 - Monitor thread successfully connected to server with description ServerDescription{address=192.168.2.241:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 2]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=2980075}
+2020-10-14 09:39:37,332 [restartedMain] WARN  org.springframework.data.convert.CustomConversions:207 - Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2020-10-14 09:39:37,332 [restartedMain] WARN  org.springframework.data.convert.CustomConversions:207 - Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2020-10-14 09:39:37,509 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer:57 - LiveReload server is running on port 35729
+2020-10-14 09:39:37,558 [restartedMain] WARN  org.springframework.data.convert.CustomConversions:207 - Registering converter from class java.time.LocalDateTime to class java.time.Instant as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2020-10-14 09:39:37,559 [restartedMain] WARN  org.springframework.data.convert.CustomConversions:207 - Registering converter from class java.time.Instant to class java.time.LocalDateTime as reading converter although it doesn't convert from a store-supported type! You might wanna check you annotation setup at the converter implementation.
+2020-10-14 09:39:39,796 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration:226 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-14 09:39:40,178 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2020-10-14 09:39:40,408 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-14 09:39:40,840 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler:171 - Initializing ExecutorService 'taskScheduler'
+2020-10-14 09:39:40,977 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:160 - Context refreshed
+2020-10-14 09:39:40,991 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2020-10-14 09:39:41,108 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner:41 - Scanning for api listing references
+2020-10-14 09:39:41,327 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_1
+2020-10-14 09:39:41,328 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_1
+2020-10-14 09:39:41,330 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_1
+2020-10-14 09:39:41,331 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_1
+2020-10-14 09:39:41,333 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_1
+2020-10-14 09:39:41,334 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_1
+2020-10-14 09:39:41,335 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_1
+2020-10-14 09:39:41,336 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_1
+2020-10-14 09:39:41,358 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_1
+2020-10-14 09:39:41,375 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_2
+2020-10-14 09:39:41,376 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_2
+2020-10-14 09:39:41,377 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_2
+2020-10-14 09:39:41,378 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_2
+2020-10-14 09:39:41,379 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_2
+2020-10-14 09:39:41,380 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_2
+2020-10-14 09:39:41,381 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_2
+2020-10-14 09:39:41,382 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_2
+2020-10-14 09:39:41,389 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_2
+2020-10-14 09:39:41,403 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_3
+2020-10-14 09:39:41,414 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_3
+2020-10-14 09:39:41,432 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_4
+2020-10-14 09:39:41,433 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_3
+2020-10-14 09:39:41,434 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_3
+2020-10-14 09:39:41,435 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_3
+2020-10-14 09:39:41,436 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_3
+2020-10-14 09:39:41,437 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_3
+2020-10-14 09:39:41,438 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_3
+2020-10-14 09:39:41,439 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_3
+2020-10-14 09:39:41,445 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_4
+2020-10-14 09:39:41,459 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_5
+2020-10-14 09:39:41,460 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_4
+2020-10-14 09:39:41,461 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_4
+2020-10-14 09:39:41,462 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_4
+2020-10-14 09:39:41,463 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_4
+2020-10-14 09:39:41,464 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_4
+2020-10-14 09:39:41,466 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_4
+2020-10-14 09:39:41,466 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_4
+2020-10-14 09:39:41,473 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_5
+2020-10-14 09:39:41,486 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_6
+2020-10-14 09:39:41,487 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_5
+2020-10-14 09:39:41,488 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_5
+2020-10-14 09:39:41,489 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_5
+2020-10-14 09:39:41,489 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_5
+2020-10-14 09:39:41,491 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_5
+2020-10-14 09:39:41,492 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_5
+2020-10-14 09:39:41,493 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_5
+2020-10-14 09:39:41,497 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_6
+2020-10-14 09:39:41,565 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_7
+2020-10-14 09:39:41,567 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_6
+2020-10-14 09:39:41,568 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_6
+2020-10-14 09:39:41,569 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_6
+2020-10-14 09:39:41,570 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_6
+2020-10-14 09:39:41,571 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_6
+2020-10-14 09:39:41,572 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_6
+2020-10-14 09:39:41,572 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_6
+2020-10-14 09:39:41,580 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_7
+2020-10-14 09:39:41,657 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingGET_1
+2020-10-14 09:39:41,658 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingHEAD_1
+2020-10-14 09:39:41,659 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPOST_1
+2020-10-14 09:39:41,659 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPUT_1
+2020-10-14 09:39:41,660 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPATCH_1
+2020-10-14 09:39:41,661 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingDELETE_1
+2020-10-14 09:39:41,662 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingOPTIONS_1
+2020-10-14 09:39:41,663 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingTRACE_1
+2020-10-14 09:39:41,672 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingGET_2
+2020-10-14 09:39:41,673 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingHEAD_2
+2020-10-14 09:39:41,673 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPOST_2
+2020-10-14 09:39:41,674 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPUT_2
+2020-10-14 09:39:41,675 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPATCH_2
+2020-10-14 09:39:41,676 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingDELETE_2
+2020-10-14 09:39:41,677 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingOPTIONS_2
+2020-10-14 09:39:41,678 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingTRACE_2
+2020-10-14 09:39:41,681 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_8
+2020-10-14 09:39:41,682 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_7
+2020-10-14 09:39:41,684 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_7
+2020-10-14 09:39:41,684 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_7
+2020-10-14 09:39:41,685 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_7
+2020-10-14 09:39:41,686 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_7
+2020-10-14 09:39:41,686 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_7
+2020-10-14 09:39:41,687 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_7
+2020-10-14 09:39:41,691 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_8
+2020-10-14 09:39:41,764 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteItemByIdUsingDELETE_1
+2020-10-14 09:39:41,810 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_9
+2020-10-14 09:39:41,811 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_8
+2020-10-14 09:39:41,811 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_8
+2020-10-14 09:39:41,812 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_8
+2020-10-14 09:39:41,813 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_8
+2020-10-14 09:39:41,813 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_8
+2020-10-14 09:39:41,814 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_8
+2020-10-14 09:39:41,814 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_8
+2020-10-14 09:39:41,820 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: insertItemUsingPUT_1
+2020-10-14 09:39:41,826 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_9
+2020-10-14 09:39:41,827 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: updateItemUsingPOST_1
+2020-10-14 09:39:41,836 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_10
+2020-10-14 09:39:41,836 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_9
+2020-10-14 09:39:41,837 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_9
+2020-10-14 09:39:41,838 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_9
+2020-10-14 09:39:41,839 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_9
+2020-10-14 09:39:41,841 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_9
+2020-10-14 09:39:41,843 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_9
+2020-10-14 09:39:41,845 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_9
+2020-10-14 09:39:41,851 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_10
+2020-10-14 09:39:41,863 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingGET_3
+2020-10-14 09:39:41,864 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingHEAD_3
+2020-10-14 09:39:41,864 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPOST_3
+2020-10-14 09:39:41,865 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPUT_3
+2020-10-14 09:39:41,866 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPATCH_3
+2020-10-14 09:39:41,867 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingDELETE_3
+2020-10-14 09:39:41,867 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingOPTIONS_3
+2020-10-14 09:39:41,868 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingTRACE_3
+2020-10-14 09:39:41,872 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_11
+2020-10-14 09:39:41,873 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_10
+2020-10-14 09:39:41,874 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_10
+2020-10-14 09:39:41,875 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_10
+2020-10-14 09:39:41,876 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_10
+2020-10-14 09:39:41,877 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_10
+2020-10-14 09:39:41,879 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_10
+2020-10-14 09:39:41,880 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_10
+2020-10-14 09:39:41,887 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_11
+2020-10-14 09:39:41,919 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingGET_4
+2020-10-14 09:39:41,920 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingHEAD_4
+2020-10-14 09:39:41,920 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPOST_4
+2020-10-14 09:39:41,921 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPUT_4
+2020-10-14 09:39:41,922 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPATCH_4
+2020-10-14 09:39:41,922 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingDELETE_4
+2020-10-14 09:39:41,923 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingOPTIONS_4
+2020-10-14 09:39:41,923 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingTRACE_4
+2020-10-14 09:39:41,927 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_12
+2020-10-14 09:39:41,927 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_11
+2020-10-14 09:39:41,928 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_11
+2020-10-14 09:39:41,929 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_11
+2020-10-14 09:39:41,929 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_11
+2020-10-14 09:39:41,930 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_11
+2020-10-14 09:39:41,930 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_11
+2020-10-14 09:39:41,931 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_11
+2020-10-14 09:39:41,938 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_12
+2020-10-14 09:39:41,947 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_13
+2020-10-14 09:39:41,949 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_12
+2020-10-14 09:39:41,950 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_12
+2020-10-14 09:39:41,951 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_12
+2020-10-14 09:39:41,952 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_12
+2020-10-14 09:39:41,953 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_12
+2020-10-14 09:39:41,954 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_12
+2020-10-14 09:39:41,955 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_12
+2020-10-14 09:39:41,960 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_13
+2020-10-14 09:39:41,974 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_14
+2020-10-14 09:39:41,974 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_13
+2020-10-14 09:39:41,975 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_13
+2020-10-14 09:39:41,975 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_13
+2020-10-14 09:39:41,976 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_13
+2020-10-14 09:39:41,977 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_13
+2020-10-14 09:39:41,978 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_13
+2020-10-14 09:39:41,978 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_13
+2020-10-14 09:39:41,983 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_14
+2020-10-14 09:39:42,007 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingGET_5
+2020-10-14 09:39:42,008 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingHEAD_5
+2020-10-14 09:39:42,010 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPOST_5
+2020-10-14 09:39:42,010 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPUT_5
+2020-10-14 09:39:42,011 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPATCH_5
+2020-10-14 09:39:42,032 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingDELETE_5
+2020-10-14 09:39:42,034 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingOPTIONS_5
+2020-10-14 09:39:42,035 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingTRACE_5
+2020-10-14 09:39:42,039 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_15
+2020-10-14 09:39:42,041 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_14
+2020-10-14 09:39:42,042 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_14
+2020-10-14 09:39:42,043 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_14
+2020-10-14 09:39:42,044 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_14
+2020-10-14 09:39:42,045 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_14
+2020-10-14 09:39:42,047 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_14
+2020-10-14 09:39:42,047 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_14
+2020-10-14 09:39:42,052 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_15
+2020-10-14 09:39:42,075 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_15
+2020-10-14 09:39:42,077 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType java.lang.String[]
+2020-10-14 09:39:42,079 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getWarningStatUsingPOST_1
+2020-10-14 09:39:42,086 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_16
+2020-10-14 09:39:42,106 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_16
+2020-10-14 09:39:42,107 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_15
+2020-10-14 09:39:42,108 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_16
+2020-10-14 09:39:42,112 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_15
+2020-10-14 09:39:42,113 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_15
+2020-10-14 09:39:42,114 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_15
+2020-10-14 09:39:42,116 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_15
+2020-10-14 09:39:42,117 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_15
+2020-10-14 09:39:42,136 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_17
+2020-10-14 09:39:42,167 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_17
+2020-10-14 09:39:42,168 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_16
+2020-10-14 09:39:42,169 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_17
+2020-10-14 09:39:42,169 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_16
+2020-10-14 09:39:42,170 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_16
+2020-10-14 09:39:42,172 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_16
+2020-10-14 09:39:42,175 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_16
+2020-10-14 09:39:42,176 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_16
+2020-10-14 09:39:42,181 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_18
+2020-10-14 09:39:42,231 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: batchHandleRecordUsingPOST_1
+2020-10-14 09:39:42,236 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_18
+2020-10-14 09:39:42,237 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_17
+2020-10-14 09:39:42,238 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_18
+2020-10-14 09:39:42,239 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_17
+2020-10-14 09:39:42,240 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_17
+2020-10-14 09:39:42,240 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_17
+2020-10-14 09:39:42,241 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_17
+2020-10-14 09:39:42,241 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_17
+2020-10-14 09:39:42,247 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_19
+2020-10-14 09:39:42,256 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: recordListUsingPOST_1
+2020-10-14 09:39:42,267 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: updateWorkOrderStatusUsingPOST_1
+2020-10-14 09:39:42,291 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_19
+2020-10-14 09:39:42,291 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_18
+2020-10-14 09:39:42,292 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_19
+2020-10-14 09:39:42,293 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_18
+2020-10-14 09:39:42,293 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_18
+2020-10-14 09:39:42,294 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_18
+2020-10-14 09:39:42,294 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_18
+2020-10-14 09:39:42,295 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_18
+2020-10-14 09:39:42,301 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_20
+2020-10-14 09:39:42,316 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: updateWorkOrderStatusUsingPOST_2
+2020-10-14 09:39:42,325 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_20
+2020-10-14 09:39:42,325 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_19
+2020-10-14 09:39:42,326 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_20
+2020-10-14 09:39:42,327 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_19
+2020-10-14 09:39:42,327 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_19
+2020-10-14 09:39:42,328 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_19
+2020-10-14 09:39:42,328 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_19
+2020-10-14 09:39:42,329 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_19
+2020-10-14 09:39:42,335 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_21
+2020-10-14 09:39:42,345 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingGET_6
+2020-10-14 09:39:42,346 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingHEAD_6
+2020-10-14 09:39:42,347 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPOST_6
+2020-10-14 09:39:42,348 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPUT_6
+2020-10-14 09:39:42,349 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPATCH_6
+2020-10-14 09:39:42,350 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingDELETE_6
+2020-10-14 09:39:42,351 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingOPTIONS_6
+2020-10-14 09:39:42,352 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingTRACE_6
+2020-10-14 09:39:42,353 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_21
+2020-10-14 09:39:42,354 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_20
+2020-10-14 09:39:42,354 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_21
+2020-10-14 09:39:42,355 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_20
+2020-10-14 09:39:42,355 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_20
+2020-10-14 09:39:42,356 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_20
+2020-10-14 09:39:42,356 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_20
+2020-10-14 09:39:42,357 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_20
+2020-10-14 09:39:42,358 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: lajitong_line_001UsingGET_1
+2020-10-14 09:39:42,359 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: lajitong_line_001UsingHEAD_1
+2020-10-14 09:39:42,359 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: lajitong_line_001UsingPOST_1
+2020-10-14 09:39:42,360 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: lajitong_line_001UsingPUT_1
+2020-10-14 09:39:42,360 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: lajitong_line_001UsingPATCH_1
+2020-10-14 09:39:42,361 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: lajitong_line_001UsingDELETE_1
+2020-10-14 09:39:42,361 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: lajitong_line_001UsingOPTIONS_1
+2020-10-14 09:39:42,362 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: lajitong_line_001UsingTRACE_1
+2020-10-14 09:39:42,377 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_22
+2020-10-14 09:39:42,378 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_21
+2020-10-14 09:39:42,378 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_22
+2020-10-14 09:39:42,379 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_21
+2020-10-14 09:39:42,380 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_21
+2020-10-14 09:39:42,382 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_21
+2020-10-14 09:39:42,383 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_21
+2020-10-14 09:39:42,384 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_21
+2020-10-14 09:39:42,393 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_22
+2020-10-14 09:39:42,407 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_23
+2020-10-14 09:39:42,408 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_22
+2020-10-14 09:39:42,408 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_23
+2020-10-14 09:39:42,409 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_22
+2020-10-14 09:39:42,410 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_22
+2020-10-14 09:39:42,410 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_22
+2020-10-14 09:39:42,411 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_22
+2020-10-14 09:39:42,411 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_22
+2020-10-14 09:39:42,414 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_23
+2020-10-14 09:39:42,441 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingGET_1
+2020-10-14 09:39:42,442 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingHEAD_1
+2020-10-14 09:39:42,443 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingPOST_1
+2020-10-14 09:39:42,444 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingPUT_1
+2020-10-14 09:39:42,445 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingPATCH_1
+2020-10-14 09:39:42,445 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingDELETE_1
+2020-10-14 09:39:42,446 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingOPTIONS_1
+2020-10-14 09:39:42,447 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingTRACE_1
+2020-10-14 09:39:42,448 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_24
+2020-10-14 09:39:42,449 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_23
+2020-10-14 09:39:42,450 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_24
+2020-10-14 09:39:42,450 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_23
+2020-10-14 09:39:42,451 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_23
+2020-10-14 09:39:42,451 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_23
+2020-10-14 09:39:42,452 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_23
+2020-10-14 09:39:42,452 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_23
+2020-10-14 09:39:42,457 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_24
+2020-10-14 09:39:42,465 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_25
+2020-10-14 09:39:42,466 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_24
+2020-10-14 09:39:42,467 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_25
+2020-10-14 09:39:42,467 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_24
+2020-10-14 09:39:42,468 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_24
+2020-10-14 09:39:42,468 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_24
+2020-10-14 09:39:42,469 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_24
+2020-10-14 09:39:42,470 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_24
+2020-10-14 09:39:42,473 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_25
+2020-10-14 09:39:42,478 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_26
+2020-10-14 09:39:42,479 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_25
+2020-10-14 09:39:42,479 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_26
+2020-10-14 09:39:42,480 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_25
+2020-10-14 09:39:42,480 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_25
+2020-10-14 09:39:42,481 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_25
+2020-10-14 09:39:42,482 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_25
+2020-10-14 09:39:42,482 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_25
+2020-10-14 09:39:42,483 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_26
+2020-10-14 09:39:42,484 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: saveLajitongStatisticsUsingPOST_1
+2020-10-14 09:39:42,485 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: saveNewLajitongStatisticsUsingPUT_1
+2020-10-14 09:39:42,493 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_27
+2020-10-14 09:39:42,508 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_27
+2020-10-14 09:39:42,508 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_26
+2020-10-14 09:39:42,509 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_27
+2020-10-14 09:39:42,509 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_26
+2020-10-14 09:39:42,510 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_26
+2020-10-14 09:39:42,511 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_26
+2020-10-14 09:39:42,511 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_26
+2020-10-14 09:39:42,512 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_26
+2020-10-14 09:39:42,521 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType java.lang.Long[]
+2020-10-14 09:39:42,522 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_28
+2020-10-14 09:39:42,534 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_29
+2020-10-14 09:39:42,548 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_28
+2020-10-14 09:39:42,549 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_27
+2020-10-14 09:39:42,549 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_28
+2020-10-14 09:39:42,550 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_27
+2020-10-14 09:39:42,550 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_27
+2020-10-14 09:39:42,551 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_27
+2020-10-14 09:39:42,551 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_27
+2020-10-14 09:39:42,552 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_27
+2020-10-14 09:39:42,555 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_30
+2020-10-14 09:39:42,570 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_29
+2020-10-14 09:39:42,571 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_28
+2020-10-14 09:39:42,572 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_29
+2020-10-14 09:39:42,572 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_28
+2020-10-14 09:39:42,573 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_28
+2020-10-14 09:39:42,574 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_28
+2020-10-14 09:39:42,575 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_28
+2020-10-14 09:39:42,575 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_28
+2020-10-14 09:39:42,579 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_31
+2020-10-14 09:39:42,593 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_32
+2020-10-14 09:39:42,598 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_30
+2020-10-14 09:39:42,598 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_29
+2020-10-14 09:39:42,599 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_30
+2020-10-14 09:39:42,599 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_29
+2020-10-14 09:39:42,600 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_29
+2020-10-14 09:39:42,600 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_29
+2020-10-14 09:39:42,601 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_29
+2020-10-14 09:39:42,602 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_29
+2020-10-14 09:39:42,606 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_33
+2020-10-14 09:39:42,615 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: saveLightGroupUsingPOST_1
+2020-10-14 09:39:42,619 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_31
+2020-10-14 09:39:42,620 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_30
+2020-10-14 09:39:42,621 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_31
+2020-10-14 09:39:42,621 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_30
+2020-10-14 09:39:42,622 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_30
+2020-10-14 09:39:42,622 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_30
+2020-10-14 09:39:42,622 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_30
+2020-10-14 09:39:42,623 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_30
+2020-10-14 09:39:42,626 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_34
+2020-10-14 09:39:42,631 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteItemByIdUsingDELETE_2
+2020-10-14 09:39:42,636 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_32
+2020-10-14 09:39:42,638 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_31
+2020-10-14 09:39:42,638 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_32
+2020-10-14 09:39:42,639 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_31
+2020-10-14 09:39:42,639 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_31
+2020-10-14 09:39:42,640 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_31
+2020-10-14 09:39:42,640 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_31
+2020-10-14 09:39:42,641 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_31
+2020-10-14 09:39:42,645 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: insertItemUsingPUT_2
+2020-10-14 09:39:42,648 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_35
+2020-10-14 09:39:42,650 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: updateItemUsingPOST_2
+2020-10-14 09:39:42,691 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteItemByIdUsingDELETE_3
+2020-10-14 09:39:42,698 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_33
+2020-10-14 09:39:42,700 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_32
+2020-10-14 09:39:42,701 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_33
+2020-10-14 09:39:42,703 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_32
+2020-10-14 09:39:42,704 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_32
+2020-10-14 09:39:42,705 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_32
+2020-10-14 09:39:42,706 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_32
+2020-10-14 09:39:42,707 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_32
+2020-10-14 09:39:42,721 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: insertItemUsingPUT_3
+2020-10-14 09:39:42,734 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_36
+2020-10-14 09:39:42,736 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: updateItemUsingPOST_3
+2020-10-14 09:39:42,739 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: deleteAreaUsingDELETE_1
+2020-10-14 09:39:42,745 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_34
+2020-10-14 09:39:42,745 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_33
+2020-10-14 09:39:42,746 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_34
+2020-10-14 09:39:42,747 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_33
+2020-10-14 09:39:42,747 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_33
+2020-10-14 09:39:42,748 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_33
+2020-10-14 09:39:42,748 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_33
+2020-10-14 09:39:42,749 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_33
+2020-10-14 09:39:42,754 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_37
+2020-10-14 09:39:42,773 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_35
+2020-10-14 09:39:42,774 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_34
+2020-10-14 09:39:42,776 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_35
+2020-10-14 09:39:42,777 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_34
+2020-10-14 09:39:42,778 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_34
+2020-10-14 09:39:42,780 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_34
+2020-10-14 09:39:42,781 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_34
+2020-10-14 09:39:42,781 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_34
+2020-10-14 09:39:42,785 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_38
+2020-10-14 09:39:42,796 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingGET_2
+2020-10-14 09:39:42,797 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingHEAD_2
+2020-10-14 09:39:42,798 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingPOST_2
+2020-10-14 09:39:42,798 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingPUT_2
+2020-10-14 09:39:42,799 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingPATCH_2
+2020-10-14 09:39:42,799 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingDELETE_2
+2020-10-14 09:39:42,800 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingOPTIONS_2
+2020-10-14 09:39:42,800 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: ConversionWorkOrderUsingTRACE_2
+2020-10-14 09:39:42,802 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_36
+2020-10-14 09:39:42,803 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_35
+2020-10-14 09:39:42,803 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_36
+2020-10-14 09:39:42,804 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_35
+2020-10-14 09:39:42,804 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_35
+2020-10-14 09:39:42,805 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_35
+2020-10-14 09:39:42,805 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_35
+2020-10-14 09:39:42,805 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_35
+2020-10-14 09:39:42,809 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_39
+2020-10-14 09:39:42,817 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingGET_7
+2020-10-14 09:39:42,821 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_40
+2020-10-14 09:39:42,832 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_37
+2020-10-14 09:39:42,835 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_41
+2020-10-14 09:39:42,839 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_37
+2020-10-14 09:39:42,840 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_36
+2020-10-14 09:39:42,840 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_38
+2020-10-14 09:39:42,841 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_36
+2020-10-14 09:39:42,841 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_36
+2020-10-14 09:39:42,842 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_36
+2020-10-14 09:39:42,842 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_36
+2020-10-14 09:39:42,843 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_36
+2020-10-14 09:39:42,846 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_42
+2020-10-14 09:39:42,885 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingGET_8
+2020-10-14 09:39:42,885 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingHEAD_7
+2020-10-14 09:39:42,886 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPOST_7
+2020-10-14 09:39:42,887 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPUT_7
+2020-10-14 09:39:42,887 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPATCH_7
+2020-10-14 09:39:42,888 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingDELETE_7
+2020-10-14 09:39:42,888 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingOPTIONS_7
+2020-10-14 09:39:42,888 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingTRACE_7
+2020-10-14 09:39:42,890 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_38
+2020-10-14 09:39:42,891 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_37
+2020-10-14 09:39:42,891 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_39
+2020-10-14 09:39:42,892 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_37
+2020-10-14 09:39:42,892 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_37
+2020-10-14 09:39:42,892 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_37
+2020-10-14 09:39:42,893 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_37
+2020-10-14 09:39:42,893 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_37
+2020-10-14 09:39:42,899 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_43
+2020-10-14 09:39:42,904 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: saveNewOperatorOrCompanyManageUsingPUT_1
+2020-10-14 09:39:42,924 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_39
+2020-10-14 09:39:42,925 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_38
+2020-10-14 09:39:42,925 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_40
+2020-10-14 09:39:42,926 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_38
+2020-10-14 09:39:42,926 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_38
+2020-10-14 09:39:42,927 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_38
+2020-10-14 09:39:42,927 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_38
+2020-10-14 09:39:42,928 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_38
+2020-10-14 09:39:42,931 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_44
+2020-10-14 09:39:42,939 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_40
+2020-10-14 09:39:42,940 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_39
+2020-10-14 09:39:42,940 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_41
+2020-10-14 09:39:43,010 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_39
+2020-10-14 09:39:43,011 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_39
+2020-10-14 09:39:43,012 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_39
+2020-10-14 09:39:43,012 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_39
+2020-10-14 09:39:43,013 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_39
+2020-10-14 09:39:43,045 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_45
+2020-10-14 09:39:43,065 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_41
+2020-10-14 09:39:43,066 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_40
+2020-10-14 09:39:43,068 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_42
+2020-10-14 09:39:43,068 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_40
+2020-10-14 09:39:43,069 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_40
+2020-10-14 09:39:43,070 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_40
+2020-10-14 09:39:43,071 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_40
+2020-10-14 09:39:43,072 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_40
+2020-10-14 09:39:43,079 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_46
+2020-10-14 09:39:43,099 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingGET_1
+2020-10-14 09:39:43,101 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingHEAD_1
+2020-10-14 09:39:43,102 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingPOST_1
+2020-10-14 09:39:43,103 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingPUT_1
+2020-10-14 09:39:43,104 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingPATCH_1
+2020-10-14 09:39:43,105 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingDELETE_1
+2020-10-14 09:39:43,106 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingOPTIONS_1
+2020-10-14 09:39:43,107 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingTRACE_1
+2020-10-14 09:39:43,108 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelPlanUsingGET_1
+2020-10-14 09:39:43,109 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelPlanUsingHEAD_1
+2020-10-14 09:39:43,110 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelPlanUsingPOST_1
+2020-10-14 09:39:43,111 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelPlanUsingPUT_1
+2020-10-14 09:39:43,112 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelPlanUsingPATCH_1
+2020-10-14 09:39:43,113 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelPlanUsingDELETE_1
+2020-10-14 09:39:43,114 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelPlanUsingOPTIONS_1
+2020-10-14 09:39:43,115 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelPlanUsingTRACE_1
+2020-10-14 09:39:43,122 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingGET_9
+2020-10-14 09:39:43,123 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingHEAD_8
+2020-10-14 09:39:43,125 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPOST_8
+2020-10-14 09:39:43,126 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPUT_8
+2020-10-14 09:39:43,126 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPATCH_8
+2020-10-14 09:39:43,127 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingDELETE_8
+2020-10-14 09:39:43,128 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingOPTIONS_8
+2020-10-14 09:39:43,129 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingTRACE_8
+2020-10-14 09:39:43,133 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingGET_10
+2020-10-14 09:39:43,134 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingHEAD_9
+2020-10-14 09:39:43,135 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPOST_9
+2020-10-14 09:39:43,135 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPUT_9
+2020-10-14 09:39:43,137 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPATCH_9
+2020-10-14 09:39:43,138 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingDELETE_9
+2020-10-14 09:39:43,139 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingOPTIONS_9
+2020-10-14 09:39:43,140 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingTRACE_9
+2020-10-14 09:39:43,143 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_42
+2020-10-14 09:39:43,143 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_41
+2020-10-14 09:39:43,144 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_43
+2020-10-14 09:39:43,144 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_41
+2020-10-14 09:39:43,145 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_41
+2020-10-14 09:39:43,145 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_41
+2020-10-14 09:39:43,147 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_41
+2020-10-14 09:39:43,148 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_41
+2020-10-14 09:39:43,152 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_47
+2020-10-14 09:39:43,166 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingGET_11
+2020-10-14 09:39:43,170 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: savePermissionUsingPOST_1
+2020-10-14 09:39:43,175 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_43
+2020-10-14 09:39:43,176 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_42
+2020-10-14 09:39:43,177 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_44
+2020-10-14 09:39:43,178 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_42
+2020-10-14 09:39:43,178 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_42
+2020-10-14 09:39:43,180 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_42
+2020-10-14 09:39:43,180 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_42
+2020-10-14 09:39:43,181 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_42
+2020-10-14 09:39:43,186 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_48
+2020-10-14 09:39:43,187 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryCompUsingPOST_1
+2020-10-14 09:39:43,207 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_44
+2020-10-14 09:39:43,208 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_43
+2020-10-14 09:39:43,209 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_45
+2020-10-14 09:39:43,209 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_43
+2020-10-14 09:39:43,210 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_43
+2020-10-14 09:39:43,211 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_43
+2020-10-14 09:39:43,212 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_43
+2020-10-14 09:39:43,213 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_43
+2020-10-14 09:39:43,217 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_49
+2020-10-14 09:39:43,228 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getLudengStatisticsDataUsingGET_1
+2020-10-14 09:39:43,231 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_45
+2020-10-14 09:39:43,232 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_44
+2020-10-14 09:39:43,233 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_46
+2020-10-14 09:39:43,233 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_44
+2020-10-14 09:39:43,233 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_44
+2020-10-14 09:39:43,234 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_44
+2020-10-14 09:39:43,234 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_44
+2020-10-14 09:39:43,235 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_44
+2020-10-14 09:39:43,236 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_50
+2020-10-14 09:39:43,237 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: saveLajitongStatisticsUsingPOST_2
+2020-10-14 09:39:43,238 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: saveNewLajitongStatisticsUsingPUT_2
+2020-10-14 09:39:43,242 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_46
+2020-10-14 09:39:43,243 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_45
+2020-10-14 09:39:43,244 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_47
+2020-10-14 09:39:43,244 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_45
+2020-10-14 09:39:43,245 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_45
+2020-10-14 09:39:43,245 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_45
+2020-10-14 09:39:43,245 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_45
+2020-10-14 09:39:43,246 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_45
+2020-10-14 09:39:43,250 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_51
+2020-10-14 09:39:43,258 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_47
+2020-10-14 09:39:43,258 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_46
+2020-10-14 09:39:43,259 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_48
+2020-10-14 09:39:43,259 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_46
+2020-10-14 09:39:43,259 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_46
+2020-10-14 09:39:43,260 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_46
+2020-10-14 09:39:43,260 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_46
+2020-10-14 09:39:43,261 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_46
+2020-10-14 09:39:43,264 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_52
+2020-10-14 09:39:43,269 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_48
+2020-10-14 09:39:43,270 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_47
+2020-10-14 09:39:43,270 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_49
+2020-10-14 09:39:43,271 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_47
+2020-10-14 09:39:43,271 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_47
+2020-10-14 09:39:43,271 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_47
+2020-10-14 09:39:43,272 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_47
+2020-10-14 09:39:43,272 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_47
+2020-10-14 09:39:43,275 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_53
+2020-10-14 09:39:43,333 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_1
+2020-10-14 09:39:43,334 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_2
+2020-10-14 09:39:43,335 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_3
+2020-10-14 09:39:43,335 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_4
+2020-10-14 09:39:43,336 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_5
+2020-10-14 09:39:43,336 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_6
+2020-10-14 09:39:43,337 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getImageCheckCodeUsingGET_7
+2020-10-14 09:39:43,361 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_49
+2020-10-14 09:39:43,362 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_48
+2020-10-14 09:39:43,362 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_50
+2020-10-14 09:39:43,363 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_48
+2020-10-14 09:39:43,363 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_48
+2020-10-14 09:39:43,364 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_48
+2020-10-14 09:39:43,364 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_48
+2020-10-14 09:39:43,364 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_48
+2020-10-14 09:39:43,377 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_54
+2020-10-14 09:39:43,387 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: autologinUsingGET_1
+2020-10-14 09:39:43,388 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: autologinUsingHEAD_1
+2020-10-14 09:39:43,388 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: autologinUsingPOST_1
+2020-10-14 09:39:43,389 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: autologinUsingPUT_1
+2020-10-14 09:39:43,389 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: autologinUsingPATCH_1
+2020-10-14 09:39:43,389 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: autologinUsingDELETE_1
+2020-10-14 09:39:43,390 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: autologinUsingOPTIONS_1
+2020-10-14 09:39:43,390 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: autologinUsingTRACE_1
+2020-10-14 09:39:43,398 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingGET_1
+2020-10-14 09:39:43,398 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingHEAD_1
+2020-10-14 09:39:43,399 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingPOST_1
+2020-10-14 09:39:43,399 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingPUT_1
+2020-10-14 09:39:43,399 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingPATCH_1
+2020-10-14 09:39:43,400 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingDELETE_1
+2020-10-14 09:39:43,400 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingOPTIONS_1
+2020-10-14 09:39:43,401 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getUserInfoUsingTRACE_1
+2020-10-14 09:39:43,402 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: loginUsingGET_1
+2020-10-14 09:39:43,402 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: loginUsingHEAD_1
+2020-10-14 09:39:43,403 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: loginUsingPOST_1
+2020-10-14 09:39:43,404 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: loginUsingPUT_1
+2020-10-14 09:39:43,404 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: loginUsingPATCH_1
+2020-10-14 09:39:43,405 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: loginUsingDELETE_1
+2020-10-14 09:39:43,406 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: loginUsingOPTIONS_1
+2020-10-14 09:39:43,406 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: loginUsingTRACE_1
+2020-10-14 09:39:43,409 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: sendSmsCodeUsingGET_1
+2020-10-14 09:39:43,409 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: sendSmsCodeUsingHEAD_1
+2020-10-14 09:39:43,410 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: sendSmsCodeUsingPOST_1
+2020-10-14 09:39:43,410 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: sendSmsCodeUsingPUT_1
+2020-10-14 09:39:43,411 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: sendSmsCodeUsingPATCH_1
+2020-10-14 09:39:43,411 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: sendSmsCodeUsingDELETE_1
+2020-10-14 09:39:43,411 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: sendSmsCodeUsingOPTIONS_1
+2020-10-14 09:39:43,412 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: sendSmsCodeUsingTRACE_1
+2020-10-14 09:39:43,413 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: uploadUsingPOST_1
+2020-10-14 09:39:43,417 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingGET_2
+2020-10-14 09:39:43,418 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingHEAD_2
+2020-10-14 09:39:43,418 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingPOST_2
+2020-10-14 09:39:43,419 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingPUT_2
+2020-10-14 09:39:43,419 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingPATCH_2
+2020-10-14 09:39:43,420 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingDELETE_2
+2020-10-14 09:39:43,420 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingOPTIONS_2
+2020-10-14 09:39:43,421 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: addPlanUsingTRACE_2
+2020-10-14 09:39:43,421 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelDeviceUsingGET_1
+2020-10-14 09:39:43,422 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelDeviceUsingHEAD_1
+2020-10-14 09:39:43,422 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelDeviceUsingPOST_1
+2020-10-14 09:39:43,422 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelDeviceUsingPUT_1
+2020-10-14 09:39:43,423 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelDeviceUsingPATCH_1
+2020-10-14 09:39:43,423 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelDeviceUsingDELETE_1
+2020-10-14 09:39:43,424 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelDeviceUsingOPTIONS_1
+2020-10-14 09:39:43,424 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: cancelDeviceUsingTRACE_1
+2020-10-14 09:39:43,428 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingGET_12
+2020-10-14 09:39:43,428 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingHEAD_10
+2020-10-14 09:39:43,429 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPOST_10
+2020-10-14 09:39:43,429 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPUT_10
+2020-10-14 09:39:43,430 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPATCH_10
+2020-10-14 09:39:43,430 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingDELETE_10
+2020-10-14 09:39:43,431 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingOPTIONS_10
+2020-10-14 09:39:43,431 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingTRACE_10
+2020-10-14 09:39:43,433 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingGET_13
+2020-10-14 09:39:43,434 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingHEAD_11
+2020-10-14 09:39:43,435 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPOST_11
+2020-10-14 09:39:43,435 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPUT_11
+2020-10-14 09:39:43,436 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingPATCH_11
+2020-10-14 09:39:43,436 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingDELETE_11
+2020-10-14 09:39:43,437 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingOPTIONS_11
+2020-10-14 09:39:43,437 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getAllItemsUsingTRACE_11
+2020-10-14 09:39:43,439 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingGET_50
+2020-10-14 09:39:43,439 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingHEAD_49
+2020-10-14 09:39:43,440 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPOST_51
+2020-10-14 09:39:43,440 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPUT_49
+2020-10-14 09:39:43,441 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingPATCH_49
+2020-10-14 09:39:43,441 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingDELETE_49
+2020-10-14 09:39:43,441 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingOPTIONS_49
+2020-10-14 09:39:43,442 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getItemByIdUsingTRACE_49
+2020-10-14 09:39:43,445 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_55
+2020-10-14 09:39:43,449 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: updataPlanListUsingGET_1
+2020-10-14 09:39:43,449 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: updataPlanListUsingHEAD_1
+2020-10-14 09:39:43,450 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: updataPlanListUsingPOST_1
+2020-10-14 09:39:43,450 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: updataPlanListUsingPUT_1
+2020-10-14 09:39:43,451 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: updataPlanListUsingPATCH_1
+2020-10-14 09:39:43,451 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: updataPlanListUsingDELETE_1
+2020-10-14 09:39:43,452 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: updataPlanListUsingOPTIONS_1
+2020-10-14 09:39:43,452 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: updataPlanListUsingTRACE_1
+2020-10-14 09:39:43,455 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,456 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,456 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,457 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,457 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,458 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,458 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,458 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,459 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,459 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,460 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,460 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,461 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,461 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,461 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,462 [restartedMain] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader:92 - Trying to infer dataType long[]
+2020-10-14 09:39:43,482 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingGET_1
+2020-10-14 09:39:43,482 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingHEAD_1
+2020-10-14 09:39:43,483 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPOST_56
+2020-10-14 09:39:43,483 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPUT_1
+2020-10-14 09:39:43,484 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingPATCH_1
+2020-10-14 09:39:43,484 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingDELETE_1
+2020-10-14 09:39:43,484 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingOPTIONS_1
+2020-10-14 09:39:43,485 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: queryUsingTRACE_1
+2020-10-14 09:39:43,534 [restartedMain] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator:40 - Generating unique operation named: getEnvironmentStatisticsDataUsingGET_1
+2020-10-14 09:39:43,588 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-9500"]
+2020-10-14 09:39:43,619 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer:202 - Tomcat started on port(s): 9500 (http) with context path ''
+2020-10-14 09:39:43,624 [restartedMain] INFO  com.cityiot.guanxin.GuanxinWebServerApplication:59 - Started GuanxinWebServerApplication in 18.888 seconds (JVM running for 24.046)
+2020-10-14 09:39:43,628 [restartedMain] INFO  c.cityiot.guanxin.config.springboot.InitListenter:21 - Spting Boot 启动完成
+2020-10-14 09:51:12,851 [Thread-8] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler:208 - Shutting down ExecutorService 'taskScheduler'
+2020-10-14 09:51:12,853 [Thread-8] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor:208 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-14 09:51:12,878 [Thread-8] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:598 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-10-14 09:51:12,880 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2020-10-14 09:51:12,889 [Thread-8] INFO  com.zaxxer.hikari.HikariDataSource:352 - HikariPool-1 - Shutdown completed.

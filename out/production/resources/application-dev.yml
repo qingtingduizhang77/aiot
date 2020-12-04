@@ -1,0 +1,85 @@
+#  服务端口
+server:
+  port: 9500
+
+
+  
+spring:
+  data:
+    mongodb:
+      uri: mongodb://aiot:123456@192.168.2.241:27017/aiot
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:static/,classpath:/META-INF/resources/,classpath:/META-INF/resources/webjars/,file:C:/static/
+  # 数据库配置
+  datasource:    
+    url: jdbc:mysql://192.168.2.241:3306/aiot?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: develop
+    password: top123456
+
+    
+    # 对联结池进行配置 确保联结池不会假死
+    hikari:
+      idle-timeout: 280000
+      validation-timeout: 3000
+      connection-test-query: SELECT 1 FROM DUAL
+      max-lifetime: 300000
+ 
+   # redis数据库配置
+  redis:
+    host: 192.168.2.241
+    port: 6379
+    database: 15    
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
+      #update
+ 
+  # 缓存配置 权限系统有使用到
+  cache:
+    type: EHCACHE
+    ehcache:
+      config: classpath:encache.xml
+
+# 日志配置
+logging:
+  level:
+    root: info
+    org.hibernate.SQL: debug
+
+file:
+  upload:
+    baseUpLoadUrl: /app/bin/tomcat/upload
+
+socketconfig:
+  socketPort: 8886
+  socketUrl: 192.168.2.241 
+
+
+key: b02r18o15a01d04o15c03e05a01n14e05v22o15p16
+# app安装地址
+nginxUrl:
+
+#阿里云服务配置
+aliyun:
+  sms:
+    product: Test111
+    domain: Test111.aliyuncs.com
+    accessKeyId: 111111111111111
+    accessKeySecret: 111111111111111
+
+#个推
+getui:
+  appId: ctGFqZyZqb6xNpI69MJh41 #应用的唯一ID
+  appKey: q96Yfr47oH7GhuSiX6mUf7 #应用的AppKey
+  masterSecret: oy2MtftDFB7knTWs4yR8U6 #应用的秘钥
+  url: http://sdk.open.api.igexin.com/apiex.htm
+
+#智慧工地统计数据API
+projectTotal:
+  url: http://132.232.62.246:8088/project/total
+  companyId: 2d5ca7f2-55bb-477d-b48b-25253f71d4f1
+  token: 59C8DA56DAADEFE2064E9AE4247094CB

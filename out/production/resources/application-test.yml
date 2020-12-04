@@ -1,0 +1,59 @@
+#      氢华行的权限认证系统配置
+#  服务端口
+server:
+  port: 9500
+
+
+  
+spring:
+  data:
+    mongodb:
+     uri:  mongodb://aiot:123456@192.168.2.241:27017/aiot
+  mvc:
+    static-path-pattern: /static/**
+  resources:
+    static-locations: classpath:static/,classpath:/META-INF/resources/,classpath:/META-INF/resources/webjars/,file:/opt/guanxin-html,file:/opt/gxdatashare/
+    
+  # 数据库配置
+  datasource:    
+    url: dbc:mysql://192.168.2.241:3306/aiot?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+    username: develop
+    password: top123456
+
+    
+    # 对联结池进行配置 确保联结池不会假死
+    hikari:
+      idle-timeout: 280000
+      validation-timeout: 3000
+      connection-test-query: SELECT 1 FROM DUAL
+      max-lifetime: 300000
+      maximum-pool-size: 35
+      
+  
+  jpa:
+    hibernate:
+      ddl-auto: update
+ 
+  # 缓存配置 权限系统有使用到
+  cache:
+    type: EHCACHE
+    ehcache:
+      config: classpath:encache.xml
+
+# 日志配置
+logging:
+  level:
+    root: info
+    org.hibernate.SQL: debug
+
+file:
+  upload:
+    baseUpLoadUrl: /opt/gxdatashare/
+
+#阿里云服务配置
+aliyun:
+  sms:
+    product: Teste
+    domain: testt.aliyuncs.com
+    accessKeyId: 111111111111111
+    accessKeySecret: 222111111111111111
